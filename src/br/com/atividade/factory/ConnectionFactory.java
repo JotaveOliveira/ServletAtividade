@@ -19,7 +19,7 @@ public class ConnectionFactory {
 	public static Connection conectar() {
 		try {
 			return DriverManager
-					.getConnection("jdbc:mysql://localhost/web_professores", 
+					.getConnection("jdbc:mysql://localhost/web_produtos", 
 							"root", "7894567898");
 		} catch (SQLException ex) {
 			System.err.println("Não foi possível conectar!");
